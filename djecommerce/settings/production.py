@@ -18,17 +18,31 @@ ALLOWED_HOSTS = ['los4leones.herokuapp.com']
 
 #db_from_env = dj_database_url.config(conn_max_age=500)
 # DATABASES['default'].update(db_from_env)
-
+ 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ddeoclis9js5ob',
-        'USER': 'gfvkujtrxdwdiv',
-        'PASSWORD': '64ac4d5b4daf1548b07a3731f3e8bfe518032f3ea01eafd2c9768cbe0d8998c0',
-        'HOST': 'ec2-54-88-130-244.compute-1.amazonaws.com',
+        'NAME': 'd13gq8q678e41u',
+        'USER': 'vnesnqygvhswzo',
+        'PASSWORD': '05dcffa1be2a447075fb1ff23064efa085edd98504e6117910c897f4ed921ece',
+        'HOST': 'ec2-52-86-25-51.compute-1.amazonaws.com',
         'PORT': 5432,
     }
 }
+#DATABASES = {
+ #   'default': {
+  #      'ENGINE': 'django.db.backends.postgresql_psycopg2',
+   #     'NAME': 'ddeoclis9js5ob',
+    #    'USER': 'gfvkujtrxdwdiv',
+    #    'PASSWORD': '64ac4d5b4daf1548b07a3731f3e8bfe518032f3ea01eafd2c9768cbe0d8998c0',
+     #   'HOST': 'ec2-54-88-130-244.compute-1.amazonaws.com',
+      #  'PORT': 5432,
+    #}
+#}
+
+
+
+
 STATICFILES_DIRS = (BASE_DIR, 'static_in_env')
 #STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static_in_env')]
 # com esto se actibvan los archivos estaticos para que mejora la vista
